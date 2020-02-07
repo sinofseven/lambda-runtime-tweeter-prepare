@@ -17,7 +17,7 @@ create-sam-deploy-user-access-key:
 	poetry run python scripts/create_access_key.py SAM
 
 create-ssm-deploy-user-access-key:
-	poetry run python scripts/create_access_key.py SAM
+	poetry run python scripts/create_access_key.py SSM
 
 .PHONY: \
 	deploy \
